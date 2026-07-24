@@ -1,51 +1,91 @@
-# PRANALI 3262
+# OrbitHQ
 
-PRANALI 3262 is the digital reporting and operations platform for Rotaract District 3262. It is designed to replace fragmented spreadsheets, chat-based reporting, and manual follow-up with a clear, role-aware workspace for clubs, zones, and district leaders.
+OrbitHQ is an open-source operations platform for membership-based organizations, associations, districts, clubs, and nonprofit communities. It provides a modern, centralized workspace to manage reporting, events, administration, communication, and analytics through a clean, scalable interface.
 
-This foundation focuses on the club secretary experience: a personalized operations dashboard, reporting history, a guided monthly report composer, district event context, notifications, global search, and responsive navigation.
+The first production implementation is being developed for Rotaract District 3262, with the architecture designed to be reusable by Rotary districts, Rotaract districts, NGOs, professional associations, and other community organizations.
 
-## Key Technologies
+# Core Features
 
-- TanStack Start
-- React 19
-- TypeScript
-- Tailwind CSS 4
-- Chart.js
-- Lucide React
-- Netlify
+Club and chapter reporting
+District and organization dashboards
+Event management
+Member and attendance tracking
+Report history and draft management
+File and image uploads
+Role-based access control
+Advanced search and filtering
+Notifications and workflow management
+Responsive interface for desktop and mobile
+Modular architecture for future extensions
 
-## Experience Highlights
+# Technology Stack
 
-- Premium, responsive district operations shell
-- Personalized priority and deadline guidance
-- Club performance metrics and score trends
-- Monthly report status and submission history
-- Multi-section report composer with draft feedback
-- Mobile-first navigation and form layouts
-- Keyboard-accessible global search with `Cmd/Ctrl + K`
-- Notification and autosave interaction states
+React 19
+TypeScript
+Vite
+Tailwind CSS
+shadcn/ui
+TanStack Router
+Chart.js
+Netlify
 
-## Run Locally
+# Why OrbitHQ?
 
-```bash
-pnpm install
-pnpm dev
-```
+Many membership organizations still rely on spreadsheets, emails, and disconnected tools to manage operations.
 
-For local Netlify platform emulation:
+OrbitHQ replaces fragmented workflows with a unified platform that helps organizations:
 
-```bash
-netlify dev --port 8889
-```
+Streamline monthly reporting
+Improve operational transparency
+Centralize documents and communication
+Monitor organizational performance
+Reduce administrative overhead
+Scale across multiple clubs, chapters, or districts
 
-## Project Structure
+# Current Implementation
 
-```text
+The first live implementation of OrbitHQ powers the digital operations platform for Rotaract District 3262. Future releases will expand support for additional organizational structures, custom modules, and self-hosted deployments.
+
+# Run Locally
+
+npm install
+npm run dev
+
+# For local Netlify development:
+
+netlify dev --port 8888
+
+# Project Structure
+
 src/
 ├── routes/
-│   ├── __root.tsx   # Document shell and metadata
-│   └── index.tsx    # Interactive application experience
-└── styles.css       # Design system and responsive styling
-```
+├── components/
+├── hooks/
+├── services/
+├── lib/
+├── styles/
+└── utils/
 
-The current project is a frontend product foundation. Authentication, persistent reporting data, file storage, and role-enforced server APIs can be integrated as subsequent modules while preserving the established interface architecture.
+# Roadmap
+
+Club Management
+District Management
+Event Registration
+Attendance Tracking
+Member Directory
+Document Management
+Analytics Dashboard
+Multi-Organization Support
+Mobile App
+REST & GraphQL APIs
+Plugin System
+
+# License
+
+This project is released under the MIT License.
+
+# Contributing
+
+We welcome contributions from developers, designers, and organizations interested in improving digital infrastructure for nonprofit and membership-based communities.
+
+Please read our Contributing Guidelines and Code of Conduct before submitting pull requests.
