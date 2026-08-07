@@ -1,8 +1,8 @@
 # OrbitHQ
 
-OrbitHQ is an open-source operations platform for membership-based organizations, associations, districts, clubs, and nonprofit communities. It provides a modern, centralized workspace to manage reporting, events, administration, communication, and analytics through a clean, scalable interface.
+OrbitHQ is an open-source operations platform for membership-based organizations, associations, districts, clubs and nonprofit communities. It provides a modern, centralized workspace to manage reporting, events, administration, communication and analytics through a clean, scalable interface.
 
-The first production implementation is being developed for Rotaract District 3262, with the architecture designed to be reusable by Rotary districts, Rotaract districts, NGOs, professional associations, and other community organizations.
+The first production implementation is being developed for Rotaract District 3262, with the architecture designed to be reusable by Rotary districts, Rotaract districts, NGOs, professional associations and other community organizations.
 
 # Core Features
 
@@ -45,15 +45,6 @@ Scale across multiple clubs, chapters, or districts
 # Current Implementation
 
 The first live implementation of OrbitHQ powers the digital operations platform for Rotaract District 3262. Future releases will expand support for additional organizational structures, custom modules, and self-hosted deployments.
-
-# Run Locally
-
-npm install
-npm run dev
-
-# For local Netlify development:
-
-netlify dev --port 8888
 
 # Project Structure
 
